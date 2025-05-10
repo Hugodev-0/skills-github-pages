@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+body {
+    font-family: sans-serif;
+}
+header {
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    min-width: fit-content;
+    height: 60px;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+main {
+    background-image: url("https://64.media.tumblr.com/286bdab6edbbe4b07b85ca48313573fa/d084846138f4cb8a-e4/s2048x3072_c200,0,99600,100000/f6ef2d85ee29d6a654fc1f11e8ac5286cc112e07.gif");
+    font-size: 24px;
+    min-width: 100%;
+    min-height: 450px;
+    text-align: center;
+    padding: 175px;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.content-info {
+background-image: url("https://images.unsplash.com/photo-1638443523564-46b8a648c5a1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 100%;
+    min-height: 300px;
+    text-align: center;
+    padding: 100px;
+    color: aliceblue;
+}
+.content-info h3{
+    font-size: 34px;
+}
+.content-info h2{
+    font-size: 38px;
+}
+.content-info p{
+    font-size: 22px;
+}
+.content {
+    background-color: rgba(50, 50, 50, 0.35);
+    min-width: 80%;
+    min-height: fit-content;
+    border-radius: 20px;
+    padding: 50px;
+}
+.concept-learning {
+    padding: 20px;
+}
+.concept-why-learn {
+    padding: 20px;
+}
+.concept-intro {
+    padding: 20px;
+}
+.concept-programming {
+    padding: 20px;
+}
